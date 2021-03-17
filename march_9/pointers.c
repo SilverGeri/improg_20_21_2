@@ -33,15 +33,16 @@ int sum_with_pointer_end(int* begin, int* end) {
 	return retval;
 }
 
+// [1,2,3,4]
 void print_array(int* arr, int size) {
-	printf("[");
+	printf("[");                         // prints [
 	for (int i = 0; i < size - 1; ++i) {
-		printf("%d, ", arr[i]);
+		printf("%d, ", arr[i]);      // prints 1, 2, 3, 
 	}
 	if (size > 0) {
-		printf("%d", arr[size-1]);
+		printf("%d", arr[size-1]);   // prints 4
 	}
-	printf("]\n");
+	printf("]\n");                       // prints ]\n
 }
 
 void swap(int* left, int* right) {
