@@ -12,7 +12,7 @@
 #define WON 1
 #define IN_GAME 2
 
-
+// https://stackoverflow.com/questions/2347770/how-do-you-clear-the-console-screen-in-c/36253316
 void clearScreen()
 {
   const char *CLEAR_SCREEN_ANSI = "\e[1;1H\e[2J";
